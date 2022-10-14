@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  tableviewtest
+//  tableviewController
 //
-//  Created by 조명근 on 2022/10/14.
+//  Created by 조명근 on 2022/10/15.
 //
 
 import UIKit

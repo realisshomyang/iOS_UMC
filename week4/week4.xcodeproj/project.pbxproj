@@ -14,6 +14,8 @@
 		3FCA3AEC28F99F8C00AE6B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA3AEA28F99F8C00AE6B64 /* LaunchScreen.storyboard */; };
 		3FCA3AF428F99FC100AE6B64 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3AF328F99FC100AE6B64 /* FirstViewController.swift */; };
 		3FCA3AF628F9A06300AE6B64 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3AF528F9A06300AE6B64 /* SecondViewController.swift */; };
+		3FD23C6628F9C29B0083F261 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23C6528F9C29B0083F261 /* MemoViewController.swift */; };
+		3FD23C6828F9C3F50083F261 /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD23C6728F9C3F50083F261 /* MemoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3FCA3AED28F99F8C00AE6B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCA3AF328F99FC100AE6B64 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3FCA3AF528F9A06300AE6B64 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3FD23C6528F9C29B0083F261 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		3FD23C6728F9C3F50083F261 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				3FCA3ADF28F99F8B00AE6B64 /* AppDelegate.swift */,
 				3FCA3AE128F99F8B00AE6B64 /* SceneDelegate.swift */,
 				3FCA3AE528F99F8B00AE6B64 /* Main.storyboard */,
+				3FD23C6728F9C3F50083F261 /* MemoTableViewCell.swift */,
+				3FD23C6528F9C29B0083F261 /* MemoViewController.swift */,
 				3FCA3AF528F9A06300AE6B64 /* SecondViewController.swift */,
 				3FCA3AF328F99FC100AE6B64 /* FirstViewController.swift */,
 				3FCA3AE828F99F8C00AE6B64 /* Assets.xcassets */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCA3AF628F9A06300AE6B64 /* SecondViewController.swift in Sources */,
+				3FD23C6828F9C3F50083F261 /* MemoTableViewCell.swift in Sources */,
 				3FCA3AF428F99FC100AE6B64 /* FirstViewController.swift in Sources */,
+				3FD23C6628F9C29B0083F261 /* MemoViewController.swift in Sources */,
 				3FCA3AE028F99F8B00AE6B64 /* AppDelegate.swift in Sources */,
 				3FCA3AE228F99F8B00AE6B64 /* SceneDelegate.swift in Sources */,
 			);

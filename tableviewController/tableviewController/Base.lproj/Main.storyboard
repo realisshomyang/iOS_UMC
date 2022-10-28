@@ -88,7 +88,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KgI-2W-MIX">
                                 <rect key="frame" x="0.0" y="91" width="390" height="719"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -107,29 +107,30 @@
                         <barButtonItem key="rightBarButtonItem" title="저장" id="9XX-cZ-Pxv">
                             <connections>
                                 <action selector="btnSave:" destination="4Wy-SB-7z8" id="y4s-T6-Lwi"/>
+                                <segue destination="ItR-Yn-C9z" kind="show" id="Mwp-4T-1Av"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hCU-53-6oX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="-353"/>
+            <point key="canvasLocation" x="931" y="-105"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="snQ-Qq-cOV">
+        <!--Lott View Controller-->
+        <scene sceneID="7eS-dd-pF0">
             <objects>
-                <viewController id="4WE-de-LRA" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AcC-4q-tFM">
+                <viewController id="ItR-Yn-C9z" customClass="lottViewController" customModule="tableviewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ilH-b8-TP3">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="TLp-C3-sWh"/>
+                        <viewLayoutGuide key="safeArea" id="eCA-Gv-dVy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jJR-Zk-1do"/>
+                    <navigationItem key="navigationItem" id="myj-7P-K8f"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrg-wZ-4K9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PtY-8v-L64" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="352"/>
+            <point key="canvasLocation" x="1720" y="-105"/>
         </scene>
     </scenes>
     <resources>

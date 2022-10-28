@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1899F0980CD8D6D77F73DC /* Pods_tableviewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0706F4C2A7E923E177EECA71 /* Pods_tableviewController.framework */; };
+		3F5226BF290B7EF40006D2EE /* lottViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5226BE290B7EF40006D2EE /* lottViewController.swift */; };
 		3F78D1BD28F9C66D007E1F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78D1BC28F9C66D007E1F1C /* AppDelegate.swift */; };
 		3F78D1BF28F9C66D007E1F1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78D1BE28F9C66D007E1F1C /* SceneDelegate.swift */; };
 		3F78D1C428F9C66D007E1F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F78D1C228F9C66D007E1F1C /* Main.storyboard */; };
@@ -15,9 +17,12 @@
 		3F78D1D128F9C807007E1F1C /* memocontents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78D1D028F9C807007E1F1C /* memocontents.swift */; };
 		3F78D1D328F9C900007E1F1C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78D1D228F9C900007E1F1C /* MainTableViewController.swift */; };
 		3F78D1D528F9CBBA007E1F1C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78D1D428F9CBBA007E1F1C /* AddViewController.swift */; };
+		3FF52F85290B80160065A51D /* ghost.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FF52F84290B80160065A51D /* ghost.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0706F4C2A7E923E177EECA71 /* Pods_tableviewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableviewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5226BE290B7EF40006D2EE /* lottViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottViewController.swift; sourceTree = "<group>"; };
 		3F78D1B928F9C66D007E1F1C /* tableviewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableviewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F78D1BC28F9C66D007E1F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F78D1BE28F9C66D007E1F1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		3F78D1D028F9C807007E1F1C /* memocontents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memocontents.swift; sourceTree = "<group>"; };
 		3F78D1D228F9C900007E1F1C /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		3F78D1D428F9CBBA007E1F1C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3FF52F84290B80160065A51D /* ghost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ghost.json; path = ../../../../Downloads/ghost.json; sourceTree = "<group>"; };
+		8F0FFAA0CA7A5E224DEB8165 /* Pods-tableviewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableviewController.release.xcconfig"; path = "Target Support Files/Pods-tableviewController/Pods-tableviewController.release.xcconfig"; sourceTree = "<group>"; };
+		B59DE5EC02828617BEAE8DED /* Pods-tableviewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableviewController.debug.xcconfig"; path = "Target Support Files/Pods-tableviewController/Pods-tableviewController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1899F0980CD8D6D77F73DC /* Pods_tableviewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,8 @@
 			children = (
 				3F78D1BB28F9C66D007E1F1C /* tableviewController */,
 				3F78D1BA28F9C66D007E1F1C /* Products */,
+				68EA5DB5A195654391591182 /* Pods */,
+				9813BBD9FCDB15E9D2F00F3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +71,36 @@
 		3F78D1BB28F9C66D007E1F1C /* tableviewController */ = {
 			isa = PBXGroup;
 			children = (
+				3FF52F84290B80160065A51D /* ghost.json */,
 				3F78D1BC28F9C66D007E1F1C /* AppDelegate.swift */,
 				3F78D1BE28F9C66D007E1F1C /* SceneDelegate.swift */,
 				3F78D1C228F9C66D007E1F1C /* Main.storyboard */,
 				3F78D1D428F9CBBA007E1F1C /* AddViewController.swift */,
 				3F78D1D228F9C900007E1F1C /* MainTableViewController.swift */,
+				3F5226BE290B7EF40006D2EE /* lottViewController.swift */,
 				3F78D1D028F9C807007E1F1C /* memocontents.swift */,
 				3F78D1C528F9C66E007E1F1C /* Assets.xcassets */,
 				3F78D1C728F9C66E007E1F1C /* LaunchScreen.storyboard */,
 				3F78D1CA28F9C66E007E1F1C /* Info.plist */,
 			);
 			path = tableviewController;
+			sourceTree = "<group>";
+		};
+		68EA5DB5A195654391591182 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B59DE5EC02828617BEAE8DED /* Pods-tableviewController.debug.xcconfig */,
+				8F0FFAA0CA7A5E224DEB8165 /* Pods-tableviewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9813BBD9FCDB15E9D2F00F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0706F4C2A7E923E177EECA71 /* Pods_tableviewController.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F78D1CD28F9C66E007E1F1C /* Build configuration list for PBXNativeTarget "tableviewController" */;
 			buildPhases = (
+				A08AD98D3E3FC1976FD8535B /* [CP] Check Pods Manifest.lock */,
 				3F78D1B528F9C66D007E1F1C /* Sources */,
 				3F78D1B628F9C66D007E1F1C /* Frameworks */,
 				3F78D1B728F9C66D007E1F1C /* Resources */,
+				041CB9D8D9A31FF14ED8CF09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,7 +141,7 @@
 				};
 			};
 			buildConfigurationList = 3F78D1B428F9C66D007E1F1C /* Build configuration list for PBXProject "tableviewController" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -132,12 +164,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F78D1C928F9C66E007E1F1C /* LaunchScreen.storyboard in Resources */,
+				3FF52F85290B80160065A51D /* ghost.json in Resources */,
 				3F78D1C628F9C66E007E1F1C /* Assets.xcassets in Resources */,
 				3F78D1C428F9C66D007E1F1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041CB9D8D9A31FF14ED8CF09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tableviewController/Pods-tableviewController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tableviewController/Pods-tableviewController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tableviewController/Pods-tableviewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08AD98D3E3FC1976FD8535B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tableviewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F78D1B528F9C66D007E1F1C /* Sources */ = {
@@ -147,6 +222,7 @@
 				3F78D1D528F9CBBA007E1F1C /* AddViewController.swift in Sources */,
 				3F78D1D128F9C807007E1F1C /* memocontents.swift in Sources */,
 				3F78D1BD28F9C66D007E1F1C /* AppDelegate.swift in Sources */,
+				3F5226BF290B7EF40006D2EE /* lottViewController.swift in Sources */,
 				3F78D1BF28F9C66D007E1F1C /* SceneDelegate.swift in Sources */,
 				3F78D1D328F9C900007E1F1C /* MainTableViewController.swift in Sources */,
 			);
@@ -290,6 +366,7 @@
 		};
 		3F78D1CE28F9C66E007E1F1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59DE5EC02828617BEAE8DED /* Pods-tableviewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +394,7 @@
 		};
 		3F78D1CF28F9C66E007E1F1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0FFAA0CA7A5E224DEB8165 /* Pods-tableviewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
